@@ -98,3 +98,47 @@
     height: 50px;
     border-radius: 30%;
   }
+
+  /*----------------badge------------------------*/
+
+  .s-badge{
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;  
+  }
+
+  .grey{
+    background-color: var(--sidenav-color);
+  }
+
+  .red{
+    background-color: var(--warning);
+  }
+
+  .badge{
+      display: flex;
+      justify-content: center;
+      margin: 1rem 1rem;
+  }
+
+  /*------------------list-----------------*/
+
+  .list-bulleted
+  {
+    list-style: disc outside;
+  }
+
+  .lists{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .list{
+      list-style: none;
+  }
+
+
