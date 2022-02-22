@@ -6,10 +6,13 @@
     --background-color: #fb923c;
     --text-color: #FFFFFF;
     --off-white: #E9ECEF;
-    --success: #fbbf24;
-    --warning: #f87171;
-    --error:#fb7185;
+    --success: #16a34a;
+    --warning: #c2410c;
+    --error:#b91c1c;
     --sidenav-color:#818181;
+    --white-background:#ffffff;
+
+  
   }
 
   body{
@@ -61,6 +64,12 @@
     transition: 0.3s;
   }
 
+ .getstarted{
+    display: flex;
+    justify-content:center;
+ }
+  
+
   .text-style {
     font-size: larger;
     display: flex;
@@ -98,6 +107,7 @@
     height: 50px;
     border-radius: 30%;
   }
+
 
   /*----------------badge------------------------*/
 
@@ -141,4 +151,192 @@
       list-style: none;
   }
 
+
+
+  /*------------------Button------------------*/
+
+  .button{
+
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .btn-component{
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    border: 1px solid;
+    font-size: medium;
+  }
+
+  .btn-primary{
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+
+  .link-btn{
+      border:none;
+      background-color: var(--white-background);
+  }
+
+  .icon-btn{
+    display: flex;
+    align-items: center;
+    background-color: var(--background-color);
+  }
+
+  .float-btn {
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: var(--background-color);
+    box-shadow: 10px 10px 5px #aaaaaa;
+    }
+
+    .float-btn i{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        height: 100%;
+        color:var(--text-color);
+        }
+
+
+ /*----------------image component--------------------*/       
+
+ .image-component{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+ }
+
+ .img-component{
+    width: 35rem;
+    height: 35rem;
+ }
+
+ .responsive{
+    max-width: 100%;
+    height: auto;
+ }
+
+.circular{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+/*============input component-----------------*/
+
+.input-component{
+    display: flex;
+    justify-content: center;
+
+}
+
+.inp-component {
+margin:1rem;
+padding: 0.5rem 0.1rem;
+text-align: center;
+border-radius: 0.3rem;
+border-color: var(--text-color);
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.input-component label{
+    margin-top: 1.5rem;
+}
+
+.error-input{
+ border-color: var(--warning);  
+}
+
+/*----------------Rating---------------*/
+
+.rating{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.checked{
+    color:var(--background-color);
+  }
+
+.fa-star:hover{
+    color:var(--background-color);
+  }
+  /*-------------------Alert-----------------*/
+
+  .alert-component{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  }
+
+
+  .done{
+color: var(--success);
+  }
+
+  .warning{
+    color: var(--warning);
+  }
+
+  .error{
+    color: var(--error);
+  }
+
+
+  /*-------------slider-------------*/
+  .slider-component{
+    margin:1rem;
+    display:flex;
+    justify-content: center;
+  }
+
+  .slider{
+    accent-color:var(--background-color);
+  }
+
+
+  /*------------Toast/Snackbar-------------*?
+
+  *---------toast/snackbar-component----------*/
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar-btn{
+  padding:5px;
+  border-radius: 0.3rem;
+  color: var(--background-color);
+  border-color: var(--text-color);
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
 
