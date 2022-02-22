@@ -34,7 +34,7 @@
   .side-nav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
     color:var(--sidenav-color);
     display: block;
     transition: 0.3s;
