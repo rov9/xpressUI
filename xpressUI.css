@@ -6,11 +6,16 @@
     --background-color: #fb923c;
     --text-color: #FFFFFF;
     --off-white: #E9ECEF;
-    --success: #fbbf24;
-    --warning: #f87171;
-    --error:#fb7185;
+    --success: #16a34a;
+    --warning: #c2410c;
+    --error:#b91c1c;
     --sidenav-color:#818181;
+<<<<<<< HEAD
     --white-background:#ffffff;
+=======
+
+  
+>>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
   }
 
   body{
@@ -62,10 +67,17 @@
     transition: 0.3s;
   }
 
+<<<<<<< HEAD
  .getstarted{
     display: flex;
     justify-content:center;
  }
+=======
+  .getstarted{
+    display: flex;
+    justify-content:center;
+  }
+>>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
 
   .text-style {
     font-size: larger;
@@ -106,6 +118,7 @@
   }
 
 
+<<<<<<< HEAD
   /*------------------Button------------------*/
 
   .button{
@@ -225,3 +238,72 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 .fa-star:hover{
     color:var(--background-color);
   }
+=======
+  /*-------------------Alert-----------------*/
+
+  .alert-component{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  }
+
+
+  .done{
+color: var(--success);
+  }
+
+  .warning{
+    color: var(--warning);
+  }
+
+  .error{
+    color: var(--error);
+  }
+
+
+  /*-------------slider-------------*/
+  .slider-component{
+    margin:1rem;
+    display:flex;
+    justify-content: center;
+  }
+
+  .slider{
+    accent-color:var(--background-color);
+  }
+
+
+  /*------------Toast/Snackbar-------------*?
+
+  *---------toast/snackbar-component----------*/
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar-btn{
+  padding:5px;
+  border-radius: 0.3rem;
+  color: var(--background-color);
+  border-color: var(--text-color);
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+>>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
