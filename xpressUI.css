@@ -10,12 +10,9 @@
     --warning: #c2410c;
     --error:#b91c1c;
     --sidenav-color:#818181;
-<<<<<<< HEAD
     --white-background:#ffffff;
-=======
 
   
->>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
   }
 
   body{
@@ -67,17 +64,11 @@
     transition: 0.3s;
   }
 
-<<<<<<< HEAD
  .getstarted{
     display: flex;
     justify-content:center;
  }
-=======
-  .getstarted{
-    display: flex;
-    justify-content:center;
-  }
->>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
+  
 
   .text-style {
     font-size: larger;
@@ -118,7 +109,50 @@
   }
 
 
-<<<<<<< HEAD
+  /*----------------badge------------------------*/
+
+  .s-badge{
+    color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;  
+  }
+
+  .grey{
+    background-color: var(--sidenav-color);
+  }
+
+  .red{
+    background-color: var(--warning);
+  }
+
+  .badge{
+      display: flex;
+      justify-content: center;
+      margin: 1rem 1rem;
+  }
+
+  /*------------------list-----------------*/
+
+  .list-bulleted
+  {
+    list-style: disc outside;
+  }
+
+  .lists{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .list{
+      list-style: none;
+  }
+
+
+
   /*------------------Button------------------*/
 
   .button{
@@ -238,7 +272,6 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 .fa-star:hover{
     color:var(--background-color);
   }
-=======
   /*-------------------Alert-----------------*/
 
   .alert-component{
@@ -306,4 +339,4 @@ color: var(--success);
   border-color: var(--text-color);
   box-shadow: 10px 10px 5px #aaaaaa;
 }
->>>>>>> eb15ddffdf61af6564dd6363e3e4e3355734cd12
+
