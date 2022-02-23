@@ -300,10 +300,15 @@ color: var(--success);
 
 
   /*-------------slider-------------*/
-  .slider-component{
-    margin:1rem;
+  .slider-container{
     display:flex;
     justify-content: center;
+
+  }
+
+  .slider-component{
+    margin:1rem;
+    
   }
 
   .slider{
