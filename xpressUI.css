@@ -258,9 +258,14 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 /*----------------Rating---------------*/
 
+.rating-container{
+  display: flex;
+  justify-content: center;
+}
+
+
 .rating{
-    display: flex;
-    justify-content: center;
+    
     font-size: 1.5rem;
     margin: 1rem;
 }
